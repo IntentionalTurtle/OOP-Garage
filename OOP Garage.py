@@ -21,7 +21,7 @@ class Parking():
                     self.currentTicket['paid'] = 'true'
                     self.tickets.append('ticket')
                     self.parkingSpaces.append('space')
-                    print(f'There are now {len(self.tickets)} tickets and {len(self.parkingSpaces)} parking spaces remaining')
+                    # print(f'There are now {len(self.tickets)} tickets and {len(self.parkingSpaces)} parking spaces remaining')
                     print('Your ticket has been paid and you have 15 min to leave.')
                     break
                 else: 
@@ -37,7 +37,7 @@ class Parking():
                         self.currentTicket['paid'] = 'true'
                         self.tickets.append('ticket')
                         self.parkingSpaces.append('space')
-                        print(f'There are now {len(self.tickets)} tickets and {len(self.parkingSpaces)} parking spaces remaining')
+                        # print(f'There are now {len(self.tickets)} tickets and {len(self.parkingSpaces)} parking spaces remaining')
                         print('Thank you have a nice day!')
                         break
                     else: 
@@ -45,13 +45,13 @@ class Parking():
         else:
             print('Have a nice day!')    
 
-matt_parking = Parking()
-print(len(matt_parking.parkingSpaces))
-print(len(matt_parking.tickets))
+# matt_parking = Parking()
+# print(len(matt_parking.parkingSpaces))
+# print(len(matt_parking.tickets))
 
-matt_parking.takeTicket()
-print(len(matt_parking.parkingSpaces))
-print(len(matt_parking.tickets))
+# matt_parking.takeTicket()
+# print(len(matt_parking.parkingSpaces))
+# print(len(matt_parking.tickets))
 
 
-matt_parking.leaveGarage()
+# matt_parking.leaveGarage()
